@@ -6,15 +6,16 @@ body {
 
 .navigation {
     border: 1px solid blue;
-    margin: 10px;
+    margin: 5px;
 }
 
 .content {
     border: 1px solid red;
-    margin: 10px;
+    margin: 5px;
 }
 
 @import 'burgeringredient';
 @import 'burger';
 @import 'buildcontrols';
 @import 'modal';
+@import 'button';
