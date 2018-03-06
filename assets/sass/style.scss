@@ -4,14 +4,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.navigation {
-    border: 1px solid blue;
-    margin: 5px;
-}
-
 .content {
-    border: 1px solid red;
-    margin: 5px;
+    margin-top: 72px;
 }
 
 @import 'burgeringredient';
@@ -19,3 +13,5 @@ body {
 @import 'buildcontrols';
 @import 'modal';
 @import 'button';
+@import 'toolbar';
+@import 'sidedrawer';
