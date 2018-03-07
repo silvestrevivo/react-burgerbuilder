@@ -1,18 +1,18 @@
 import React from 'react';
 import Logo from '../../logo/logo';
 import NavigationItems from '../navigationitems/navigationitems';
-import SideDrawer from '../sidedrawer/sidedrawer';
+import DrawerToggle from '../sidedrawer/drawertoggle/drawertoggle';
 
 const ToolBar = (props) => (
   <header className="ToolBar">
-    <SideDrawer />
+    <DrawerToggle clicked={props.drawerToggleClicked} />
     <div style={{ height: '80%' }}>
       <Logo />
     </div>
-    <nav>
+    <nav className="DesktopOnly">
       <NavigationItems />
     </nav>
-  </header>
+  </header >
 );
 
 export default ToolBar;

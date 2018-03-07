@@ -10,11 +10,15 @@
   padding: 32px 16px;
   box-sizing: border-box;
   transition: transform .3s ease-in-out;
-  text-align: center;
+  //text-align: center;
 
   @media (min-width: 500px){
     display: none;
-    text-align: initial;
+    //text-align: initial;
+  }
+
+  .Logo{
+    margin-bottom: 32px;
   }
 }
 
@@ -26,3 +30,26 @@
   transform: translateX(-100%);
 }
 
+.DrawerToggle {
+  width: 40px;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.DrawerToggle div {
+  width: 90%;
+  height: 3px;
+  background-color: white;
+}
+
+@media (min-width: 500px) {
+  .DrawerToggle {
+      display: none;
+  }
+}
