@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/silvestrevivo/react-burgerbuilder#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "classnames": "^2.2.5",
     "node-sass": "^4.7.2",
     "prop-types": "^15.6.0",
